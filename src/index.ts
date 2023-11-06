@@ -20,7 +20,11 @@ export class SearchClient {
   public async suggestion(query: string) {
     this.query = query;
     const url: string = `${API_URL}${getRestURL(this.query, this.hl, this.gl)}`;
-    const response = await request.get(url);
+    const response = await request.get(url, {
+      headers: {
+        "user-agent": this.header as string,
+      },
+    });
     return parser(response);
   }
 }
