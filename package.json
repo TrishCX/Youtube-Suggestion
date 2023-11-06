@@ -1,0 +1,20 @@
+{
+  "name": "youtube-suggestion",
+  "version": "1.0.0",
+  "description": "A simple module that allows you to fetch search suggestion from YouTube.",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "start:prod": "nodemon dist/index.js"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "author": "TrishCX",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
