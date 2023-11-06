@@ -1,6 +1,6 @@
 {
   "name": "youtube-search-suggestions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple module that allows you to fetch search suggestion from YouTube.",
   "main": "dist/index.js",
   "scripts": {
