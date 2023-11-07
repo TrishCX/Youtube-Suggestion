@@ -15,7 +15,7 @@ $ npm i youtube-search-suggestions
 ## Usage
 
 ```js
-const { SearchClient } = require("youtube-search-suggestion");
+const { SearchClient } = require("youtube-search-suggestions");
 
 const client = new SearchClient();
 ```
@@ -23,7 +23,7 @@ const client = new SearchClient();
 ## Example
 
 ```js
-const { SearchClient } = require("youtube-search-suggestion");
+const { SearchClient } = require("youtube-search-suggestions");
 
 const client = new SearchClient();
 
